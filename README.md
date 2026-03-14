@@ -9,14 +9,14 @@ A responsive photo gallery web app built with React + Vite + Tailwind CSS as par
 
 ## Features
 
-- 📸 Fetches 30 photos from the [Picsum Photos API](https://picsum.photos)
-- 🔍 Real-time search filter by author name (no API call on search)
-- ❤️ Toggle favourites with a heart button on each photo
-- 💾 Favourites persist across page refreshes via `localStorage`
-- 📱 Fully responsive — 4 columns on desktop, 2 on tablet, 1 on mobile
-- ⚡ Loading skeleton while photos are fetching
-- ⚠️ Error state if the API fails
-- 🎨 Dark theme with hover glow effects and masonry layout
+-  Fetches 30 photos from the [Picsum Photos API](https://picsum.photos)
+-  Real-time search filter by author name (no API call on search)
+-  Toggle favourites with a heart button on each photo
+-  Favourites persist across page refreshes via `localStorage`
+-  Fully responsive — 4 columns on desktop, 2 on tablet, 1 on mobile
+-  Loading skeleton while photos are fetching
+-  Error state if the API fails
+-  Dark theme with hover glow effects and masonry layout
 
 ---
 
