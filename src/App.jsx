@@ -121,16 +121,15 @@ export default function App() {
                 <p className="text-white/40">No photos match your search.</p>
               </div>
             ) : (
-              <div className="columns-1 sm:columns-2 lg:columns-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {filteredPhotos.map((photo, i) => (
-                  <div key={photo.id} className="break-inside-avoid mb-4">
-                    <PhotoCard
-                      photo={photo}
-                      isFavourited={favourites.includes(photo.id)}
-                      onToggleFavourite={toggleFavourite}
-                      index={i}
-                    />
-                  </div>
+                  <PhotoCard
+                    key={photo.id}
+                    photo={photo}
+                    isFavourited={favourites.includes(photo.id)}
+                    onToggleFavourite={toggleFavourite}
+                    index={i}
+                  />
                 ))}
               </div>
             )}
